@@ -1,11 +1,5 @@
-import Sidebar from "@/components/admin/Sidebar";
-
 const Dashboard = ({}) => {
-	return (
-		<div className="">
-		<Sidebar />
-		</div>
-	);
+	return "CONTENT";
 };
 
 export default Dashboard;

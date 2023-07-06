@@ -109,7 +109,7 @@ const Sidebar = () => {
 
 
 	return (
-		<>
+		<div className="">
 			<div className="drawer">
 				<input id="sidebar-drawer" type="checkbox" className="drawer-toggle" />
 				<div className="drawer-content">
@@ -142,7 +142,7 @@ const Sidebar = () => {
 				{systemButtons}
 				{renderItems}
 			</div>
-		</>
+		</div>
 	);
 };
 
