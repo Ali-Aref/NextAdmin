@@ -70,7 +70,7 @@ const Sidebar = () => {
 				</label>
 				<div
 					tabIndex={0}
-					className="dropdown-content z-[2] menu p-2 shadow rounded-box w-64 bg-base-100 text-base-content"
+					className="dropdown-content z-[2] menu p-2 shadow rounded-box w-56 bg-base-100 text-base-content"
 				>
 					<ul className="menu">
 						<li>
@@ -127,7 +127,7 @@ const Sidebar = () => {
 				</div>
 				<div className="drawer-side lg:hidden">
 					<label htmlFor="sidebar-drawer" className="drawer-overlay"></label>
-					<div className="menu bg-primary text-primary-content px-8 py-5 rounded-tr-2xl min-h-screen rounded-br-2xl w-[22.5rem]">
+					<div className="menu bg-primary text-primary-content px-8 py-5 rounded-tr-2xl min-h-screen rounded-br-2xl w-[290px]">
 						{avatarComponent}
 						{systemButtons}
 						{renderItems}
@@ -136,7 +136,7 @@ const Sidebar = () => {
 			</div>
 			<div
 				className="bg-primary text-primary-content px-8 py-5 rounded-tr-2xl min-h-screen rounded-br-2xl 
-		hidden w-[22.5rem] lg:block"
+		hidden w-[290px] lg:block"
 			>
 				{avatarComponent}
 				{systemButtons}
